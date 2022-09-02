@@ -1,0 +1,72 @@
+{
+  "name": "draggable-list",
+  "version": "0.0.1",
+  "private": true,
+  "description": "React Component for a draggable list",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "types",
+    "build"
+  ],
+  "keywords": [],
+  "author": "tk42",
+  "license": "MIT",
+  "dependencies": {
+    "@storybook/react": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.0",
+    "react-smooth-dnd": "^0.11.1",
+    "streamlit-component-lib-react-hooks": "^1.0.3",
+    "@mui/material": "^5.10.3",
+    "@mui/icons-material": "^5.10.3",
+    "@emotion/styled": "^11.10.4",
+    "@emotion/react": "^11.10.4",
+    "array-move": "^4.0.0",
+    "typescript": "~4.4.0",
+    "babel-loader": "8.1.0"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "."
+}
