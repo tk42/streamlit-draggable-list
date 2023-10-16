@@ -1,4 +1,7 @@
 # streamlit-draggable-list
+
+![Support Python 3.10+](https://img.shields.io/badge/Python-3.10+-green)
+
 A Streamlit wrapper component on react-smooth-dnd
 
 ### Exmple
